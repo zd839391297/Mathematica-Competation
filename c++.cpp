@@ -1,6 +1,11 @@
 #include<iostream>
 using namespace std;
 int main(){
-    cout<<"hello,world"<<endl;
-    return 0;
+    int i=1;
+    while(i<46)
+    {
+           cout<<"\'B"<<i<<"\',";
+           i++;
+    }
+       return 0;
 }
